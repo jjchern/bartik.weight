@@ -6,8 +6,8 @@
 using namespace Rcpp;
 
 // [[Rcpp::export]]
-List ComputeAlphaBeta(const arma::vec y, const arma::vec x, const arma::mat WW,
-                      const arma::mat weight, const arma::mat Z, const arma::vec G) {
+List ComputeAlphaBeta(arma::vec y, arma::vec x, arma::mat WW,
+                      arma::mat weight, arma::mat Z, arma::vec G) {
 
     int n = x.n_elem;
 

@@ -12,7 +12,7 @@ The original Stata package by Paul Goldsmith-Pinkham can be found here:
 
 # Installation
 
-You can install the released version of bartik.weight from Github with:
+You can install the current version of bartik.weight from Github with:
 
 ``` r
 # install.packages("devtools")

@@ -26,7 +26,7 @@ https://github.com/paulgp/bartik-weight.
 
 # Installation
 
-You can install the released version of bartik.weight from Github with:
+You can install the current version of bartik.weight from Github with:
 
 ```R
 # install.packages("devtools")
@@ -122,5 +122,3 @@ bw %>%
     rename(g = trade_) %>% 
     knitr::kable(digits = 3, caption = "Top five Rotemberg weight industries")
 ```
-
-
