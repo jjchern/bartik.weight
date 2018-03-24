@@ -3,6 +3,11 @@
 
 # About `bartik.weight`
 
+[![Travis-CI Build
+Status](https://travis-ci.org/jjchern/bartik.weight.svg?branch=master)](https://travis-ci.org/jjchern/bartik.weight)
+[![AppVeyor Build
+Status](https://ci.appveyor.com/api/projects/status/github/jjchern/bartik.weight?branch=master&svg=true)](https://ci.appveyor.com/project/jjchern/bartik.weight)
+
 The package `bartik.weight` is an implementation in R for estimating
 Rotemberg weights outlined in [Goldsmith-Pinkham, Sorkin and Swift
 (2018)](http://paulgp.github.io/papers/bartik_gpss.pdf).
@@ -28,14 +33,15 @@ The package includes example datasets:
 
 ``` r
 library(tidyverse)
-#> ── Attaching packages ──────────────────────────────────────────────────────────── tidyverse 1.2.1 ──
+#> ── Attaching packages ─────────────────────────── tidyverse 1.2.1 ──
 #> ✔ ggplot2 2.2.1.9000     ✔ purrr   0.2.4     
 #> ✔ tibble  1.4.2          ✔ dplyr   0.7.4     
 #> ✔ tidyr   0.8.0          ✔ stringr 1.3.0     
 #> ✔ readr   1.1.1.9000     ✔ forcats 0.3.0
-#> ── Conflicts ─────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+#> ── Conflicts ────────────────────────────── tidyverse_conflicts() ──
 #> ✖ dplyr::filter() masks stats::filter()
 #> ✖ dplyr::lag()    masks stats::lag()
+#> ✖ dplyr::vars()   masks ggplot2::vars()
 
 # index: czone, year
 bartik.weight::ADH_master

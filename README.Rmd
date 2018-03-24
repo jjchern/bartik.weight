@@ -17,6 +17,9 @@ knitr::opts_chunk$set(
 
 # About `bartik.weight`
 
+[![Travis-CI Build Status](https://travis-ci.org/jjchern/bartik.weight.svg?branch=master)](https://travis-ci.org/jjchern/bartik.weight)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/jjchern/bartik.weight?branch=master&svg=true)](https://ci.appveyor.com/project/jjchern/bartik.weight)
+
 The package `bartik.weight` is an implementation in R for estimating Rotemberg weights 
 outlined in  [Goldsmith-Pinkham, Sorkin and Swift (2018)](http://paulgp.github.io/papers/bartik_gpss.pdf). 
 
